@@ -20,6 +20,10 @@
     transition: color .43s
 }
 
+.css-1wy0on6 {
+    width: 50px;
+}
+
 [class*=__btn] path {
     transition: fill .43s
 }
@@ -39,7 +43,7 @@
     position: relative
 }
 
-input:not([type=checkbox],[type=radio],[type=submit],[type=range]) {
+input:not([type=checkbox], [type=radio], [type=submit], [type=range]) {
     width: 100%;
     min-height: 77px;
     padding: 0 24px;
@@ -51,7 +55,7 @@ input:not([type=checkbox],[type=radio],[type=submit],[type=range]) {
     transition: border-color .43s
 }
 
-input:not([type=checkbox],[type=radio],[type=submit],[type=range]):focus, input:not([type=checkbox],[type=radio],[type=submit],[type=range]):hover {
+input:not([type=checkbox], [type=radio], [type=submit], [type=range]):focus, input:not([type=checkbox], [type=radio], [type=submit], [type=range]):hover {
     border-color: var(--blue)
 }
 
@@ -62,6 +66,12 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
 
 input[type=number] {
     -moz-appearance: textfield
+}
+
+.css-pk2oan {
+    display: grid;
+    grid-template-columns: auto auto;
+
 }
 
 .__input_hidden {
